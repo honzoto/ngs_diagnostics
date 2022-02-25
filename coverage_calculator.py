@@ -50,11 +50,8 @@ str_help = """
 print("Welcome to honzo's {0} v{1} for SAM/BAM file visualization.".format(str_program, str_version))
 
 # default arguments
-pth_reference = Path("cov2_hg38.fasta")
-pth_samfile = Path("COVID-0001_S1_L001_sars_aligned_sorted.bam")
-
 pth_reference = None
-pth_coords = "coord.csv"
+pth_coords = None
 
 str_pdfout = "plots_"+str(pth_samfile).replace(".bam", ".pdf")
 tf_isbam = True
