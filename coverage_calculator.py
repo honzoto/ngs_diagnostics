@@ -1,4 +1,4 @@
-#!/home/sbsuser/miniconda3/bin/python
+#!/usr/bin/python
 
 import sys, os
 from pathlib import Path
@@ -22,12 +22,7 @@ v1  - added coverage / depth information to plots
 
 ---
 TO-DO / KNOWN ISSUES
-- yet to develop ability to read subset files (i.e. if we don't want the whole genome coverage)
-- if we knew the length of the reference beforehand, we shouldn't have to read the whole reference genome into file
 - pysam module can only be used for linux, windows compatibility is in the works
-- sam files are 1-based, whereas bam files are 0-based, make sure to correct for that
-
-- coordinates file should be 0-based
 """
 
 
